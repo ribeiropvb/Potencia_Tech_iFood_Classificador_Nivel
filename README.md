@@ -1,6 +1,15 @@
 # Potencia_Tech_iFood_Classificador_Nivel
 Este projeto é um código Python que determina a classe de um herói, com base em seu número de pontos de experiência (XP). O código usa uma tabela de limites de XP para cada classe.
 
+# Sumário
+
+- [Classificador Heroi](#Classificador-Heroi)
+  - [Output](#Output-Heroi)
+- [Partidas Rankeadas](#Partidas-Rankeadas)
+  - [Output](#Output-Partida)
+- [Escrevendo Classes](#Escrevendo-Classes)
+  - [Output](#Output-Classe)
+
 # Classificador Heroi
 
 ```python
@@ -47,7 +56,7 @@ for nome, xp in table:
     print(f'O Herói de nome: {nome} está no nível de {classe}')
 ```
 
-## Output
+## Output Heroi
 
 ```
 O Herói de nome: Fulano está no nível de Bronze
@@ -115,7 +124,7 @@ for nome, xp in table:
   print(f'O Herói de nome: {nome} está no nível de {classe}')
 ```
 
-## Output
+## Output Partida
 
 ```
 O Herói de nome: Fulano está no nível de Bronze
@@ -123,7 +132,7 @@ O Herói de nome: Ciclano está no nível de Prata
 O Herói de nome: Beltrano está no nível de Ouro
 ```
 
-# Partidas Rankeadas
+# Escrevendo Classes
 
 ```python
 
@@ -166,7 +175,7 @@ heroi = Heroi("Sicrano", 30, "ninja")
 heroi.atacar()
 ```
 
-## Output
+## Output Classe
 
 ```
 o Mago atacou usando magia
