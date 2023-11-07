@@ -4,11 +4,11 @@ Este projeto é um código Python que determina a classe de um herói, com base 
 # Sumário
 
 - [Classificador Heroi](#Classificador-Heroi)
-  - [Output](#Output-Heroi)
+  - [Output Heroi](#Output-Heroi)
 - [Partidas Rankeadas](#Partidas-Rankeadas)
-  - [Output](#Output-Partida)
+  - [Output Partida](#Output-Partida)
 - [Escrevendo Classes](#Escrevendo-Classes)
-  - [Output](#Output-Classe)
+  - [Output Classe](#Output-Classe)
 
 # Classificador Heroi
 
