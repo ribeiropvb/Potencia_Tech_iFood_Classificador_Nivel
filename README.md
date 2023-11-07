@@ -3,10 +3,6 @@ Este projeto é um código Python que determina a classe de um herói, com base 
 
 # Classificador Heroi
 
-The Python code you provided is a function called is_between(), which takes three arguments: value, min_value, and max_value. It returns True if the value is between the min_value and max_value, inclusive, and False otherwise.
-
-The code then creates a list called table with three pairs of names and experience points:
-
 ```python
 def is_between(value, min_value, max_value):
   """Returns True if the value is between the min_value and max_value, inclusive.
@@ -49,6 +45,14 @@ for nome, xp in table:
 
   if classe is not None:
     print(f'O Herói de nome: {nome} está no nível de {classe}')
+```
+
+## Output
+
+```
+O Herói de nome: Fulano está no nível de Bronze
+O Herói de nome: Ciclano está no nível de Prata
+O Herói de nome: Beltrano está no nível de Ouro
 ```
 
 # Partidas Rankeadas
@@ -111,6 +115,14 @@ for nome, xp in table:
   print(f'O Herói de nome: {nome} está no nível de {classe}')
 ```
 
+## Output
+
+```
+O Herói de nome: Fulano está no nível de Bronze
+O Herói de nome: Ciclano está no nível de Prata
+O Herói de nome: Beltrano está no nível de Ouro
+```
+
 # Partidas Rankeadas
 
 ```python
@@ -154,3 +166,11 @@ heroi = Heroi("Sicrano", 30, "ninja")
 heroi.atacar()
 ```
 
+## Output
+
+```
+o Mago atacou usando magia
+o Guerreiro atacou usando espada
+o Monge atacou usando artes marciais
+o Ninja atacou usando shuriken
+```
